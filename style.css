@@ -7,8 +7,10 @@ body {
   background-color: brown;
   overflow: hidden;
   font-family: "Poppins", sans-serif;
+}
+
+body, html {
   overflow: hidden;
-  overflow-wrap: break-word;
 }
 
 #holder {
