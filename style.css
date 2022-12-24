@@ -1,16 +1,18 @@
+
+
 body {
   height: 96vh;
   width: 97%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 6vh;
   background-color: brown;
   overflow: hidden;
   font-family: "Poppins", sans-serif;
 }
 
 #holder {
+  margin-top: 13vh;
   text-align: center;
   background-color: white;
   padding: 50px;
@@ -42,12 +44,13 @@ button {
 
 #imgSlot {
   width: fit-content;
-  margin-top: 50px;
   border: solid;
   border-radius: 10px;
 }
 
 #wrap {
+
+text-align: center;
 }
 
 h1 {
@@ -59,6 +62,6 @@ p {
 }
 
 #showAns {
-  position: absolute;
-  top: 435px;
+  height: 1.2em;
 }
+

@@ -256,3 +256,12 @@ function checkAns() {
 
   board.innerHTML = `${correct} / ${check} / ${Math.round((correct / check) * 100)}%`
 }
+
+// Mobile
+
+const isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+alert(isMobile)
+if(isMobile == true) {
+  document.getElementById("body").style.height = '10000px'
+  document.getElementById("body").style.margin = '0%'
+}
