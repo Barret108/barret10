@@ -260,7 +260,8 @@ function checkAns() {
 // Mobile
 
 const isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+
 if (isMobile == true) {
   document.getElementById("holder").style.height = '1000px'
-  document.getElementById("body").style.marginTop = '-14vh'
+  document.getElementById("holder").style.margin = '0'
 }
