@@ -262,6 +262,7 @@ function checkAns() {
 const isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
 
 if (isMobile == true) {
-  document.getElementById("holder").style.height = '1000px'
+  document.getElementById("holder").style.height = '100vh'
+  document.getElementById("holder").style.width = '100vw'
   document.getElementById("holder").style.margin = '0'
 }
