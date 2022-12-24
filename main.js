@@ -234,7 +234,7 @@ function changeImg() {
   pick = country[Math.round(Math.random() * 217)];
   console.log(pick.toUpperCase())
   document.getElementById("imgSlot").src = `img/${pick.toUpperCase()}.svg`;
-  
+
 }
 
 function unshowAns() {
@@ -243,7 +243,7 @@ function unshowAns() {
 
 function checkAns() {
   check++
-  if(inp.value.toUpperCase() == pick.toUpperCase()) {
+  if (inp.value.toUpperCase() == pick.toUpperCase()) {
     console.log("Correct")
     correct++
   } else {
@@ -260,8 +260,7 @@ function checkAns() {
 // Mobile
 
 const isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
-alert(isMobile)
-if(isMobile == true) {
-  document.getElementById("body").style.height = '10000px'
-  document.getElementById("body").style.margin = '0%'
+if (isMobile == true) {
+  document.getElementById("holder").style.height = '1000px'
+  document.getElementById("body").style.marginTop = '-14vh'
 }
