@@ -243,7 +243,7 @@ function unshowAns() {
 
 function checkAns() {
   check++
-  if(inp.value.toUpperCase == pick.toUpperCase) {
+  if(inp.value.toUpperCase() == pick.toUpperCase()) {
     console.log("Correct")
     correct++
   } else {
